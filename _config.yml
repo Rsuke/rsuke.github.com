@@ -1,0 +1,12 @@
+name: Rsuke Memomemomemo
+description: Rsukeさんのメモです
+meta_description: "Rsukeさんのメモです"
+
+markdown: redcarpet
+pygments: true
+logo: false
+paginate: 10
+
+# Details for the RSS feed generator
+url:            'http://rsuke.github.io/'
+author:         'Rsuke'
