@@ -33,3 +33,21 @@ img.profile {
   	border-radius: 50px;
 }
 
+.blog-post{
+	padding: 20px 0;
+    background: #0E7AC4;
+}
+
+.post-headet_inner{
+	width: 80%;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.post-headet_inner a{
+	color: #FFF;
+	text-decoration: none;
+}
+
+
+

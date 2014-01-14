@@ -369,7 +369,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 60%;
+    height: 30%;
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
@@ -534,6 +534,11 @@ margin on the iframe, cause it breaks stuff. */
     padding: 60px 0;
     text-align: center;
 }
+
+
+
+
+
 
 .post-template .blog-title {
     display: inline-block;

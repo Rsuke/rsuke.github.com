@@ -6,8 +6,8 @@ archive: false
 
 <main class="content" role="main">
 
-    <article class="post">
-        <header class="post-header">
+    <header class="post-header blog-post">
+        <div class="post-headet_inner">
             <a id="blog-logo" href="{{site.baseurl}}">
                 {% if site.logo %}
                     <img src="{{site.logo}}" alt="{{ site.name }}" />
@@ -15,7 +15,11 @@ archive: false
                     <span class="blog-title">{{ site.name }}</span>
                 {%endif%}
             </a>
-        </header>
+        </div>
+    </header>
+
+    <article class="post">
+
 
         <span class="post-meta">
         	<time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
